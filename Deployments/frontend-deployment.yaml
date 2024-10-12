@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: sukhishergill/frontend:v1
+        image: image url
         ports:
         - containerPort: 3000
 ---
