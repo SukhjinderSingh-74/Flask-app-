@@ -3,7 +3,7 @@ from flask_cors import CORS
 import pyodbc
 
 app = Flask(__name__)
-CORS(app, origins=["http://34.138.59.169"])
+CORS(app, origins=["http:externalip"])
 # SQL Server connection details
 conn_str = (
     'DRIVER={ODBC Driver 18 for SQL Server};'
