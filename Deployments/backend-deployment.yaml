@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: sukhishergill/backend:latest
+        image: image url
         ports:
         - containerPort: 5000
 ---
