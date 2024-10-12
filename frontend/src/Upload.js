@@ -20,7 +20,7 @@ const Upload = () => {
         formData.append('file', file);
 
         try {
-            const response = await axios.post("http://34.75.79.119:5000/upload", formData, {
+            const response = await axios.post("http:externalip:5000/upload", formData, {
                 headers: {
                     'Content-Type': 'multipart/form-data',
                 },
